@@ -3,7 +3,11 @@ element.addEventListener("click", saludar);
 
 function saludar() {
     alert("Hola!");
-    document.getElementById("pulsar").innerHTML = "Hola!";
 }
 
+const element = document.getElementsByTagName("div");
+element.addEventListener("click", saludar2);
 
+function saludar2(){
+    alert("Hola soy el div!");
+}
