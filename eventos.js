@@ -5,7 +5,7 @@ function saludar() {
     alert("Hola!");
 }
 
-const element = document.getElementsByTagName("div");
+const element2 = document.getElementsByTagName("div");
 element.addEventListener("click", saludar2);
 
 function saludar2(){
